@@ -104,7 +104,7 @@ async function bootstrap() {
   const app = await NestFactory.create<NestFastifyApplication>(AppModule, new FastifyAdapter());
 
   // ...
-  
+
   const swaggerConfig = new DocumentBuilder()
     .setTitle('NESTJS-REDOX API')
     .setDescription('some description')
@@ -145,27 +145,28 @@ async function bootstrap() {
 
   NestjsRedoxModule.setup('reference', app, document, redoxOptions, redocOptions);
 
-  //... 
-  
+  //...
+
   await app.listen(port);
 }
 
 bootstrap();
 ```
+
 <br/>
 ⭐️ **If you like this package give it a star ;)** ⭐️
 
 ### Options
 
-For supported options see [Options](https://github.com/reyx/nestjs-redox/blob/main/libs/nestjs-redox/src/lib/types.ts).
+For supported options see [Options](https://github.com/reyx/nestjs-redox/blob/main/libs/reyx-nestjs-redox/src/lib/types.ts).
 
 ## Changelog
 
-See [Changelog](https://github.com/reyx/nestjs-redox/blob/main/libs/nestjs-redox/CHANGELOG.md).
+See [Changelog](https://github.com/reyx/nestjs-redox/blob/main/libs/reyx-nestjs-redox/CHANGELOG.md).
 
 ## Development
 
-Clone this repository and run `npm install`. You find the library under `libs/nestjs-redox` and the demo apps under `apps/demo-express`or `apps/demo-fastify`. Please run `npm run format` before commiting and make sure to use valid commit messages (see chapter Contributing).
+Clone this repository and run `npm install`. You find the library under `libs/reyx-nestjs-redox` and the demo apps under `apps/demo-express`or `apps/demo-fastify`. Please run `npm run format` before commiting and make sure to use valid commit messages (see chapter Contributing).
 
 ## E2E Testing
 

@@ -2,6 +2,6 @@
 /dist
 /coverage
 /.nx/cache
-/libs/nestjs-redox/src/lib/views
+/libs/reyx-nestjs-redox/src/lib/views
 
 /.nx/workspace-data

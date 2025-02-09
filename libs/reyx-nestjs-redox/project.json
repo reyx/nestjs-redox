@@ -1,25 +1,25 @@
 {
   "name": "@reyx/nestjs-redox",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/nestjs-redox/src",
+  "sourceRoot": "libs/reyx-nestjs-redox/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/libs/nestjs-redox",
-        "tsConfig": "libs/nestjs-redox/tsconfig.lib.json",
-        "packageJson": "libs/nestjs-redox/package.json",
-        "main": "libs/nestjs-redox/src/index.ts",
-        "assets": ["libs/nestjs-redox/*.md", "libs/nestjs-redox/LICENSE.txt"]
+        "outputPath": "dist/libs/reyx-nestjs-redox",
+        "tsConfig": "libs/reyx-nestjs-redox/tsconfig.lib.json",
+        "packageJson": "libs/reyx-nestjs-redox/package.json",
+        "main": "libs/reyx-nestjs-redox/src/index.ts",
+        "assets": ["libs/reyx-nestjs-redox/*.md", "libs/reyx-nestjs-redox/LICENSE.txt"]
       }
     },
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "angular",
-        "postTargets": ["nestjs-redox:github"],
+        "postTargets": ["@reyx/nestjs-redox:github"],
         "baseBranch": "main",
         "commitMessageFormat": "build(${projectName}): release version ${version}"
       }
@@ -35,7 +35,7 @@
       "executor": "ngx-deploy-npm:deploy",
       "options": {
         "access": "public",
-        "distFolderPath": "dist/libs/nestjs-redox"
+        "distFolderPath": "dist/libs/reyx-nestjs-redox"
       }
     }
   },
