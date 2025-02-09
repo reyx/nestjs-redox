@@ -7,7 +7,7 @@ import { Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
-import { NestjsRedoxModule, NestJSRedoxOptions, RedocOptions } from 'nestjs-redox';
+import { NestjsRedoxModule, NestJSRedoxOptions, RedocOptions } from '@reyx/nestjs-redox';
 
 import { AppModule } from './app/app.module';
 

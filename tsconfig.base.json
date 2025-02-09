@@ -14,7 +14,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "nestjs-redox": ["libs/nestjs-redox/src/index.ts"]
+      "@reyx/nestjs-redox": ["libs/nestjs-redox/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

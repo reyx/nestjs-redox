@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-redox/source",
+  "name": "@reyx/nestjs-redox/source",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "targets": {
     "local-registry": {

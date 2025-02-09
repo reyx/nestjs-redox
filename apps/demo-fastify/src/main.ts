@@ -8,7 +8,7 @@ import { NestFactory } from '@nestjs/core';
 import { FastifyAdapter, NestFastifyApplication } from '@nestjs/platform-fastify';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
-import { NestjsRedoxModule, NestJSRedoxOptions, RedocOptions } from 'nestjs-redox';
+import { NestjsRedoxModule, NestJSRedoxOptions, RedocOptions } from '@reyx/nestjs-redox';
 
 import { AppModule } from './app/app.module';
 

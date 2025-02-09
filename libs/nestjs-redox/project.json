@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-redox",
+  "name": "@reyx/nestjs-redox",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/nestjs-redox/src",
   "projectType": "library",

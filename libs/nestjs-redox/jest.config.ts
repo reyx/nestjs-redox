@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'nestjs-redox',
+  displayName: '@reyx/nestjs-redox',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {

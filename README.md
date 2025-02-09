@@ -1,4 +1,4 @@
-<h1 style="text-align: center;" align="center">NestJS-Redox <a href="https://www.npmjs.com/package/nestjs-redox?activeTab=readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/nestjs-redox"></a></h1>
+<h1 style="text-align: center;" align="center">NestJS-Redox <a href="https://www.npmjs.com/package/@reyx/nestjs-redox?activeTab=readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@reyx/nestjs-redox"></a></h1>
 
 <p style="text-align: center;" align="center">This <a href="https://docs.nestjs.com/">NestJS</a> module enables to auto-generate beautiful API docs using <a href="https://www.openapis.org/">Swagger</a> and <a href="https://github.com/Redocly/redoc/tree/main">Redoc</a>. It supports NestJS 10, ExpressJS and Fastify.</p>
 
@@ -18,7 +18,7 @@ Using the "standalone" Option in combination with "disableGoogleFont" respects t
 
 ## Installation
 
-`npm install nestjs-redox`
+`npm install @reyx/nestjs-redox`
 
 ### Standalone
 
@@ -34,7 +34,7 @@ In your main.ts file, before calling app.listen() insert the module setup (Fasti
 ```typescript
 import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import { NestjsRedoxModule, NestJSRedoxOptions, RedocOptions } from 'nestjs-redox';
+import { NestjsRedoxModule, NestJSRedoxOptions, RedocOptions } from '@reyx/nestjs-redox';
 import { AppModule } from './app/app.module';
 
 async function bootstrap() {
@@ -97,7 +97,7 @@ bootstrap();
 import { NestFactory } from '@nestjs/core';
 import { FastifyAdapter, NestFastifyApplication } from '@nestjs/platform-fastify';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import { NestjsRedoxModule, NestJSRedoxOptions, RedocOptions } from 'nestjs-redox';
+import { NestjsRedoxModule, NestJSRedoxOptions, RedocOptions } from '@reyx/nestjs-redox';
 import { AppModule } from './app/app.module';
 
 async function bootstrap() {
@@ -157,11 +157,11 @@ bootstrap();
 
 ### Options
 
-For supported options see [Options](https://github.com/julianpoemp/nestjs-redox/blob/main/libs/nestjs-redox/src/lib/types.ts).
+For supported options see [Options](https://github.com/reyx/nestjs-redox/blob/main/libs/nestjs-redox/src/lib/types.ts).
 
 ## Changelog
 
-See [Changelog](https://github.com/julianpoemp/nestjs-redox/blob/main/libs/nestjs-redox/CHANGELOG.md).
+See [Changelog](https://github.com/reyx/nestjs-redox/blob/main/libs/nestjs-redox/CHANGELOG.md).
 
 ## Development
 
