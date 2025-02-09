@@ -1,6 +1,6 @@
 {
-  "name": "nestjs-redox",
-  "version": "0.0.2",
+  "name": "@reyx/nestjs-redox",
+  "version": "0.0.1",
   "description": "This NestJS module enables to auto-generate beautiful API docs using Swagger and Redoc. It supports NestJS 10, ExpressJS and Fastify.",
   "dependencies": {
     "handlebars": "^4.7.8",
@@ -12,12 +12,12 @@
     "@nestjs/swagger": "^7.3.0"
   },
   "private": false,
-  "author": "Julian Poemp",
+  "author": "Regis Silva",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianpoemp/nestjs-redox/issues"
+    "url": "https://github.com/reyx/nestjs-redox/issues"
   },
-  "homepage": "https://github.com/julianpoemp/nestjs-redox",
+  "homepage": "https://github.com/reyx/nestjs-redox",
   "keywords": [
     "nestjs",
     "redoc",
