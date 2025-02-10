@@ -18,9 +18,8 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "preset": "angular",
-        "postTargets": ["@reyx/nestjs-redox:github"],
-        "baseBranch": "main",
+        "push": true,
+        "postTargets": ["build", "npm", "github"],
         "commitMessageFormat": "build(${projectName}): release version ${version}"
       }
     },
